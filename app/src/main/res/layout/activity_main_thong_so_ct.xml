@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivityThongSoCT">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/backgroundLabel">
+
+        <ImageView
+            android:id="@+id/GoBackIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:padding="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Thông số cầu thủ"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ibtnAddTS"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="center"
+            app:srcCompat="@android:drawable/ic_input_add" />
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/searchViewTSCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:background="@color/white"
+        android:queryHint="Search..." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/label"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Tên Cầu Thủ"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="Vị trí"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:text="Số áo"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:text="ST"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:text="BT"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:text="TV"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:text="TĐ"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="#"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listViewTSCT"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"/>
+    <Button
+        android:id="@+id/btnResetValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Reset Giá Trị" />
+</LinearLayout>

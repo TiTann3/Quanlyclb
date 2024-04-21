@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10px">
+
+    <TextView
+        android:id="@+id/txtNgaythidau"
+        android:layout_width="83dp"
+        android:layout_height="25dp"
+        android:gravity="center|left"
+        android:text="Ngay Thi Dau"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtHome"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20px"
+        android:gravity="center|left"
+        android:text="Home"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtGoalhome"
+        android:layout_width="8dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center|left"
+        android:text="0"
+        android:textColor="@color/textLabel" />
+
+    <TextView
+        android:layout_width="4dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center|left"
+        android:text="-"
+        android:textColor="@color/textLabel" />
+
+    <TextView
+        android:id="@+id/txtGoalaway"
+        android:layout_width="8dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center|left"
+        android:text="0"
+        android:textColor="@color/textLabel" />
+
+    <TextView
+        android:id="@+id/txtAway"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center|left"
+        android:text="Away"
+        android:textColor="@color/text" />
+
+    <ImageButton
+        android:id="@+id/ibtnSuaCTTD"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/edit" />
+
+</LinearLayout>

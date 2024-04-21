@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center|left"
+        android:singleLine="true"
+        android:text="Ten cau thu"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtVitri"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="Vi tri"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/txtSoao"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="sa"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtTran"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="st"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtBanthang"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="bt"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtThevang"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="tv"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txtThedo"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:gravity="center|left"
+        android:text="td"
+        android:textColor="@color/text" />
+
+    <ImageButton
+        android:id="@+id/ibtnSua"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/edit" />
+
+</LinearLayout>
